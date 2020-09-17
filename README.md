@@ -75,3 +75,4 @@ Upgrade your system:
 
 
 IMPORTANT: Uncheck 'Launch League of Legends now?' at the end of the League install wizard.
+IMPORTANT: when you open league and login it will take a while to open but just wait. (chat too)
