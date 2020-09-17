@@ -1,13 +1,11 @@
-Este artigo vai te ajudar a verificar e encontrar instalar o que precisa para a versão.
+Este artigo vai te ajudar a verificar e instalar o que precisa para rodar League Of Legends no Linux.
 
-
+## Antes de seguir estes passos instale todas as dependências do Wine
 Embora a Lutris forneça e use suas próprias compilações do Wine, ainda recomendamos que você instale todas as dependências do Wine para garantir uma experiência de trabalho. A maneira mais fácil de obtê-los é instalar o Wine em todo o sistema por meio do gerenciador de pacotes.
 
 A versão do Wine instalada não importa, nem mesmo é necessário que o Wine esteja presente, desde que todas as dependências sejam satisfeitas. Embora, o Lutris exibirá uma mensagem de aviso se não puder detectar uma instalação existente do Wine.
 
-# Instrução especifica de distribuição
-
-Abaixo está uma lista de comandos específicos para sua distribuição.
+# Abaixo está uma lista de comandos específicos para sua distribuição.
 
 ## Ubuntu/Linux Mint/Ubuntu derivatives
 
@@ -52,33 +50,26 @@ For compatibility reasons, install these additional libraries:
 
 These libraries may be used by games, launchers, or applications. E.g. Origin, Battle.net, Uplay etc. It's good practice to install these in addition to Wine.
 
-##  Arch/Antergos/Manjaro/Other Arch derivatives
+## Install
 
-Enable multilib:
+> 1. Go to: https://lutris.net/
 
-To enable multilib repository, uncomment the `[multilib]` section in `/etc/pacman.conf`
+> 2. Go to Downloads:
 
-<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">/etc/pacman.conf
---------------------------------------------------------------------------------------
-[multilib]
-Include = /etc/pacman.d/mirrorlist</pre>
+Packages compatible with Ubuntu and derivatives are available on the PPA.
+You can add a repository using terminal to receive automatic updates:
 
-Upgrade your system:
+sudo add-apt-repository ppa:lutris-team/lutris
+sudo apt update
+sudo apt install lutris
 
-    sudo pacman -Syu 
+> 3. Go to Games:
+    3.1 Search League of legends and Install, prefer use the first Gold works flawlessly with some minor tweaking
+    3.2 Now follow next step.
+        the last step uncheck Launch League of Legends now?
+    3.3 Create desktop shortcut and Create application menu shortcut
+    
+> 4. Open Lutris, League of Legends appear and open and update League.(before play reboot system)
 
-Execute the following command:
 
->sudo pacman -S wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt  lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader
-
-Disclaimer: this may seem like a lot of libraries to install, but in order for games to install and work correctly, you will need them.
-
-## Solus
-
-Execute following command:
-
-    sudo eopkg install wine wine-devel wine-32bit-devel winetricks
-
-## Other distributions
-
-To install Wine on other distributions, please, consult the [WineHQ Download](https://wiki.winehq.org/Download) page for more information.
+IMPORTANT: Uncheck 'Launch League of Legends now?' at the end of the League install wizard.
