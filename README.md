@@ -59,9 +59,9 @@ These libraries may be used by games, launchers, or applications. E.g. Origin, B
 Packages compatible with Ubuntu and derivatives are available on the PPA.
 You can add a repository using terminal to receive automatic updates:
 
-sudo add-apt-repository ppa:lutris-team/lutris
-sudo apt update
-sudo apt install lutris
+    sudo add-apt-repository ppa:lutris-team/lutris
+    sudo apt update
+    sudo apt install lutris
 
 > 3. Go to Games:
 Upgrade your system:
