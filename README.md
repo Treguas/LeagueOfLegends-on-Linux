@@ -64,7 +64,6 @@ You can add a repository using terminal to receive automatic updates:
     sudo apt install lutris
 
 > 3. Go to Games:
-Upgrade your system:
 
     3.1 Search League of legends and Install, prefer use the first Gold works flawlessly with some minor tweaking
     3.2 Now follow next step.
