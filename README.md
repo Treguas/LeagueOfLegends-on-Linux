@@ -64,10 +64,12 @@ sudo apt update
 sudo apt install lutris
 
 > 3. Go to Games:
+Upgrade your system:
+
     3.1 Search League of legends and Install, prefer use the first Gold works flawlessly with some minor tweaking
     3.2 Now follow next step.
-        the last step uncheck Launch League of Legends now?
-    3.3 Create desktop shortcut and Create application menu shortcut
+    3.3 the last step uncheck Launch League of Legends now?
+    3.4 Create desktop shortcut and Create application menu shortcut
     
 > 4. Open Lutris, League of Legends appear and open and update League.(before play reboot system)
 
