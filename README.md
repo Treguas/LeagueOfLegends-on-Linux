@@ -74,5 +74,4 @@ Upgrade your system:
 > 4. Open Lutris, League of Legends appear and open and update League.(before play reboot system)
 
 
-IMPORTANT: Uncheck 'Launch League of Legends now?' at the end of the League install wizard.
-IMPORTANT: when you open league and login it will take a while to open but just wait. (chat too)
+IMPORTANT: Uncheck 'Launch League of Legends now?' at the end of the League install wizard. when you open league and login it will take a while to open but just wait. (chat too)
